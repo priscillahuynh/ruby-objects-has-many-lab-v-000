@@ -18,4 +18,5 @@ class Post
 
   def post_count
     @@posts
+  end
 end
