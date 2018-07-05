@@ -8,7 +8,7 @@ class Author
   end
 
   def posts
-    @posts
+    @posts<<self
   end
 
   def add_post(post)
