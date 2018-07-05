@@ -10,8 +10,9 @@ class Author
     @posts
   end
 
-  def add_post
-
+  def add_post(title)
+    @posts<<title
+    
   end
 
   def add_post_by_title(title)
