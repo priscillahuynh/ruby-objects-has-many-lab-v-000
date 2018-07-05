@@ -11,8 +11,8 @@ class Author
     @posts
   end
 
-  def add_post(title)
-    self.posts<<title
+  def add_post(post)
+    self.posts<<post
     posts.author=self
     @@posts+=1
   end
