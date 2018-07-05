@@ -4,6 +4,7 @@ class Post
   
   def initialize(title, author_name=nil)
     @title=title
+    @author_name=author_name
     @@all<<self
   end
 
